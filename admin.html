@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasteleria</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark">
+        <a class="navbar-brand" href="pasteleria.html">
+          <img
+            src="images/catalina.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"/>
+            Pasteleria
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="pasteleria.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pasteleria.html#sabores">Sabores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pasteleria.html#adornos">Adornos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pasteleria.html#pedidos">Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admin.html">Admin</a>
+          </li>
+        </ul>
+      </nav>
+      <br />
+    </header>
+
+    <div align="center">
+      <h1 id="inicio">Bienvenido administrador</h1>
+      <p>
+        Hechale un vistalo al stock de los sabores y de los adornos para que nunca falten.
+        De igual forma mira la tabla de pedidos, puede que haya un nuevo cliente :).
+      </p>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">  
+            <h1 id="sabores"> Stock de sabores</h1>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Sabor</th>
+                    <th scope="col">Stock</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Chocolate</th>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th scope="row">Coco</th>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fresa</th>
+                    <td>2</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md">  
+            <h1 id="sabores" align="right"> Stock de Adornos</h1>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Adorno</th>
+                    <th scope="col">Stock</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Feliz cumpleaños</th>
+                    <td >1</td>
+                </tr>
+                <tr>
+                    <th scope="row">Boda</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">15 Años</th>
+                    <td>4</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="container">
+      <h1 id="adornos">Adornos</h1>
+      <div class="col-md">  
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Direccion</th>
+                <th scope="col">Sabor</th>
+                <th scope="col"></th>
+                <th scope="col">Adorno</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Erick</th>
+                <td>Calle 13R / 74A y 74B....</td>
+                <td>Combinado</td>
+                <td>Chocolate, coco</td>
+                <td>Combinado</td>
+                <td>Feliz cumpleaños, 15 Años</td>
+              </tr>
+              <tr>
+                <th scope="row">Erick</th>
+                <td>Calle 13R / 74A y 74B....</td>
+                <td>Chocolate</td>
+                <td></td>
+                <td>Boda</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Erick</th>
+                <td>Calle 13R / 74A y 74B....</td>
+                <td>Coco</td>
+                <td></td>
+                <td>Combinado</td>
+                <td>Feliz cumpleaños, Boda</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    </div>
+    <br />
+    <br />
+
+    <footer class="text-center text-lg-start bg-dark">
+      <div class="text-center p-3 text-light">
+        © 2022 Copyright: Erick Herrera
+      </div>
+    </footer>
+  </body>
+</html>
